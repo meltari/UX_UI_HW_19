@@ -66,16 +66,30 @@ nav {
 }
 
 /* MY WORK SECTION */
+
+#careerTitle{
+    display: block;
+    margin: auto;
+    align: center;
+    margin-top: 20%;
+}
+
 .myWork {
-    background-image: none;
+    display: flex;
+    flex-direction: horizontal;
+
+    position: relative;
     display:flex;
     flex-direction: column;
 }
 #verticalLine {
+    display: flex;
     position: fixed;
     align: left;
-    margin: auto;
+    margin-left: 0;
+    margin-right: auto;
     padding-left: 5%;
+    z-index: 3;
 }
 
 #careerTitle{
